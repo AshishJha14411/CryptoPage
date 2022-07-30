@@ -8,7 +8,7 @@ This is a sample page. The website focuses on implementing the basics of HTML an
 
 ### Deployed Version Link
 
-[CryptoHome]()
+[CryptoHome](https://cryptowebpage.netlify.app/)
 
 ### SnapShot of the WebPage
 

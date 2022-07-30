@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+
+    
+}
+
+/* general */
+
+.container{
+    
+    font-family: 'Montserrat';
+    height: 100vh;
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+/* NavBar */
+
+.navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 4rem;
+    padding-top: .8rem;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+    padding-top: 1rem;
+    height: 2rem;
+}
+.logo{
+    transform: scale(.6);
+    padding-right: 2rem;
+}
+li{
+    list-style: none;
+}
+.line{
+    border-left: 1px solid white;
+    height: 3rem;
+}
+
+body > div > section:nth-child(1) > nav > div.grow-list > ul > li:nth-child(1){
+    margin-right: 0.2rem ;
+}
+body > div > section:nth-child(1) > nav > div.grow-list > ul > li:nth-child(1)::after{
+    border-style: solid;
+	border-width: 0.15em 0.15em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.45em;
+	left: 0.15em;
+	position: relative;
+	top: 0.15em;
+	transform: rotate(-45deg);
+	vertical-align: top;
+	width: 0.45em;
+    top: 0.37rem;
+    left: 0.7rem;
+	transform: rotate(135deg);
+}
+.button-small{
+    margin-left: 13rem;
+    margin-top: .4rem;
+    height: 2.4rem;
+    width: 9rem;
+    background-color: #BA0CC5;
+    color: white;
+    border-radius: 7px;
+    
+    font-family: 'Montserrat';
+}
+
+/* Main */
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+}
+.hero-heading{
+    font-size: 70px; 
+    margin-left: 25%;
+    width: 50%;
+    font-weight: 700;
+    margin-top: -12.5rem;
+    color: white;
+}
+.hero-description{
+    margin-top: 1rem;
+    margin-left: -2rem;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.button-large{
+    margin-left: 37%;
+    margin-top: 5rem;
+    background-color: #BA0CC5;
+    width: 22rem;
+    height: 4rem;
+    font-size: 29px;
+    border-radius: 9px;
+    border: none;
+    font-family: 'Montserrat';
+    color: white;
+}

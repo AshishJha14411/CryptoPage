@@ -124,7 +124,10 @@ body > div > section:nth-child(1) > nav > div.grow-list > ul > li:nth-child(1)::
         display: flex;
         flex-direction: column;
         padding: 0;
-        height: 3rem;
+    }
+    .logo{
+        width: 9rem;
+        margin-top: -1rem;
     }
     .line{
         border-left: none;
@@ -136,39 +139,45 @@ body > div > section:nth-child(1) > nav > div.grow-list > ul > li:nth-child(1)::
         width: 40rem;
         height: 30rem;
         flex-direction: column;
+        margin-left: -7rem;
     }
     .list-item{
         margin-bottom: .7rem;
     }
     .list{
-        margin-top: 2rem;
+        padding-top: 2rem;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 1rem;
+        height: 10rem;
+        margin-bottom: -1rem;
     }
     .button-small{
-        margin-top: 3rem;
+        margin-top: 0rem;
         margin-left: 0rem;
         margin-bottom: 1rem;
     }
     .hero{
-        margin-top: 15rem;
         background-image: url(./assets/bg.png);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .hero-heading{
         font-size: 2rem;
         margin-top: 3rem;
+        margin-left: -1rem;
     }
     .hero-description{
         font-size: 1rem;
+        margin-left: 4rem;
     }
     .button-large{
         font-size: 1.5rem;
-        width: 20rem;
-        margin-left: 7rem;
+        width: 15rem;
+        margin-right: 12rem;
     }
 }
 @media (max-width: 769px){
